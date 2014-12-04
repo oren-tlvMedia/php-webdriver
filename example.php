@@ -12,6 +12,7 @@ $driver = RemoteWebDriver::create($host, $capabilities, 5000);
 $driver->get('http://docs.seleniumhq.org/');
 
 // adding cookie
+//making some changes blab bla alalal
 $driver->manage()->deleteAllCookies();
 $driver->manage()->addCookie(array(
   'name' => 'cookie_name',
