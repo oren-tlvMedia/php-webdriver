@@ -7,6 +7,7 @@ require_once('lib/__init__.php');
 $host = 'http://localhost:4444/wd/hub'; // this is the default
 $capabilities = DesiredCapabilities::firefox();
 $driver = RemoteWebDriver::create($host, $capabilities, 5000);
+echo "git chaged oren " ;
 
 // navigate to 'http://docs.seleniumhq.org/'
 $driver->get('http://docs.seleniumhq.org/');
